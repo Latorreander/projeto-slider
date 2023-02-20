@@ -5,6 +5,7 @@ const forwardArrow = document.getElementById("forward-arrow");
 let currentImage = 0;
 
 forwardArrow.addEventListener("click", () => {
+    //safe clausule
     if (currentImage === images.length - 1) {
         return;
     }
@@ -16,6 +17,7 @@ forwardArrow.addEventListener("click", () => {
 });
 
 backArrow.addEventListener("click", () => {
+    //safe clausule
     if (currentImage === 0) {
         return;
     }

@@ -68,32 +68,32 @@
 }
 
 .slide .content {
-    width: 620px;
-    height: 700px;
+    width: 62rem;
+    padding: 65px 60px;
+    left: 18rem;
+    border-radius: 10px;
     position: relative;
-    left: 180px;
     background-color: #ffffff;
 }
 
 .content .titulo {
-    font-family: "roboto";
+    font-family: "roboto", sans-serif;
     font-weight: 400;
     font-size: 50px;
-    margin: 65px 197px 80px 60px;
 }
 
 .slide .content .text {
     font-family: "roboto";
     font-weight: 300;
     font-size: 25px;
-    margin: 80px 60px 50px 60px;
+    margin-top: 80px;
+    margin-bottom: 50px;
 }
 
 .content .button {
     font-family: "roboto";
     font-size: 30px;
     font-weight: 700;
-    margin: 50px 410px 65px 60px;
 }
 
 .content .redd.button {
